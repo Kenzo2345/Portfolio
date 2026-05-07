@@ -1,5 +1,6 @@
 import { Github, Linkedin, FileText } from "lucide-react"
-
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 function Navbar() {
   return (
     <nav className="w-full  backdrop-blur-md border-b border-gray-800 z-50">
@@ -10,7 +11,10 @@ function Navbar() {
         {/* Menu */}
         <ul className="hidden lg:flex items-center gap-8 text-lg font-medium">
           <li>
-            <a href="#home" className="hover:text-blue-400 transition duration-300">Accueil</a>
+          
+             <a href="#home" className="hover:text-blue-400 transition duration-300">
+              Accueil
+            </a>
           </li>
 
           <li>
@@ -26,27 +30,25 @@ function Navbar() {
           </li>
 
           <li>
-            <a href="#projects" className="hover:text-blue-400 transition duration-300">
-              Projects
-            </a>
+            <Link to="/projects" className="hover:text-blue-400 transition duration-300">
+              Projets
+            </Link>
           </li>
 
           <li>
-            <a href="#experience" className="hover:text-blue-400 transition duration-300">
+            <Link to="/experience" className="hover:text-blue-400 transition duration-300">
               Experience
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="#skills" className="hover:text-blue-400 transition duration-300">
+            <Link to="/skills" className="hover:text-blue-400 transition duration-300">
               Compétences
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="#contact" className="hover:text-blue-400 transition duration-300">
-              Contact
-            </a>
+              <HashLink smooth to="/#contact">Contact</HashLink>
           </li>
 
         </ul>

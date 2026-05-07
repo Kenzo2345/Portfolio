@@ -7,13 +7,7 @@ export default function Home() {
         <div className="flex flex-col items-center">
           <Hand size={65} className=" animate-bounce mb-2" />
           <h1 className="md:text-6xl font-bold">Bonjour, je suis<span > TAIBI Kenza</span> </h1>
-          <p className="mt-8  text-gray-700 flex flex-wrap justify-center gap-6">
-          Étudiante en Master 1 Informatique spécialisée en calcul haute performance, intelligence artificielle et simulation numérique. Compétences en Python, C/C++, MPI, TensorFlow, traitement de données, calcul parallèle et modélisation scientifique. 
-          
-        </p>
-        <p className="mt-4 text-gray-700 flex flex-wrap justify-center gap-6">
-          Recherche une alternance à partir de septembre 2026 en IA, Data Science ou HPC.
-        </p>
+        
         </div>
         
         <div className="mt-8 flex justify-center">
