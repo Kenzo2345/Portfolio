@@ -3,11 +3,11 @@ import { CheckCircle, GithubIcon, LinkedinIcon, Mail, PhoneCall,  Sparkles } fro
 export default function Contact() {
   return (
     <section data-aos="fade-down" id="contact" className="py-20 px-6">
-      <h2 data-aos="slide-right" className="text-3xl font-bold text-center mb-10">
+      <h2 data-aos="slide-right" className="dark:text-white text-3xl font-bold text-center mb-10">
         Contact
       </h2>
 
-      <div className="pace-y-4 max-w-3xl mx-auto shadow-xl rounded-3xl p-8 space-y-6 text-gray-700">
+      <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-white/80 space-y-4 max-w-3xl mx-auto shadow-xl rounded-3xl p-8 space-y-6 text-gray-700">
         
         {/* Email */}
         <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 hover:translate-x-1 transition">

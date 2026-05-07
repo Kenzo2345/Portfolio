@@ -13,7 +13,7 @@ import Footer from "./pages/Footer";
 
 function App() {
   return (
-    <div className=" min-h-screen flex flex-col">
+    <div className="min-h-screen bg-gray-100 dark:bg-[#0f172a] text-gray-900 dark:text-white transition-all duration-500">
       <Navbar />
       <main className="flex-grow">
         <Routes>
@@ -41,6 +41,7 @@ function App() {
       <ScrollToTop />
       <Footer />
     </div>
+    
   );
 }
 

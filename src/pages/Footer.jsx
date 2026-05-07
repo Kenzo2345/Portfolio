@@ -3,8 +3,8 @@ import { Github, Linkedin, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className=" py-8 mt-20 ">
-      <div className="max-w-6xl mx-auto px-6 text-center space-y-6">
+    <footer className="py-8 mt-20 backdrop-blur-xl bg-white/80 transition-all duration-500 dark:bg-[#303642cc]/80 border-b border-gray-200 dark:border-gray-700">
+      <div className="max-w-6xl mx-auto px-6 text-center space-y-6 ">
 
         {/* Nom */}
         <h3 className="text-xl font-semibold ">TAIBI <span >Kenza</span></h3>
