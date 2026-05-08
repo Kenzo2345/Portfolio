@@ -37,7 +37,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
         </Routes>
       </main>
-      {/* 🔥 Bouton retour en haut */}
+      {/*Bouton retour en haut */}
       <ScrollToTop />
       <Footer />
     </div>

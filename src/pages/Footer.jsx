@@ -11,19 +11,19 @@ export default function Footer() {
 
         {/* Icônes sociales */}
         <div className="flex justify-center gap-6">
-          <a href="https://github.com/Kenzo2345" className="hover:text-[var(--accent)] transition">
+          <a href="https://github.com/Kenzo2345" className="hover:text-blue-500 transition">
             <Github size={22} />
           </a>
-          <a href="https://linkedin.com/in/kenza-taibi" className="hover:text-[var(--accent)] transition">
+          <a href="https://linkedin.com/in/kenza-taibi" className="hover:text-blue-500 transition">
             <Linkedin size={22} />
           </a>
-          <a href="mailto:taibikenza11@gmail.com" className="hover:text-[var(--accent)] transition">
+          <a href="mailto:taibikenza11@gmail.com" className="hover:text-blue-500 transition">
             <Mail size={22} />
           </a>
         </div>
 
         {/* Ligne */}
-        <div className="w-16 h-1 bg-[var(--background)] mx-auto rounded-full dark:bg-[var(--accent)]"></div>
+        <div className="w-16 h-1 bg-blue-500 mx-auto rounded-full "></div>
 
         {/* Copyright */}
         <p className="text-sm">
