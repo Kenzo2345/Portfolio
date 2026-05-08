@@ -1,143 +1,179 @@
+import {
+  Code,
+  Globe,
+  Brain,
+  Cpu,
+  Users
+} from "lucide-react";
+
 export default function Skills() {
+
+  const skills = [
+
+    {
+      category: (
+        <div className="flex items-center gap-3 font-semibold">
+          <Code size={22} className="text-blue-500" />
+          Langages
+        </div>
+      ),
+
+      items: [
+        "Python",
+        "C",
+        "C++",
+        "Java",
+        "JavaScript",
+        "PHP",
+        "SQL",
+        "R",
+      ]
+    },
+
+    {
+      category: (
+        <div className="flex items-center gap-3 font-semibold">
+          <Globe size={22} className="text-blue-500" />
+          Web
+        </div>
+      ),
+
+      items: [
+        "HTML/CSS",
+        "WordPress",
+        "Angular",
+      ]
+    },
+
+    {
+      category: (
+        <div className="flex items-center gap-3 font-semibold">
+          <Brain size={22} className="text-blue-500" />
+          Data & IA
+        </div>
+      ),
+
+      items: [
+        "Pandas",
+        "NumPy",
+        "SciPy",
+        "Matplotlib",
+        "TensorFlow",
+        "Scikit-learn",
+        "Machine Learning",
+        "Deep Learning",
+        "Analyse Exploratoire",
+        "GAN",
+      ]
+    },
+
+    {
+      category: (
+        <div className="flex items-center gap-3 font-semibold">
+          <Cpu size={22} className="text-blue-500" />
+          HPC & Simulation
+        </div>
+      ),
+
+      items: [
+        "MPI",
+        "OpenMP",
+        "multiprocessing",
+        "threading",
+        "gprof",
+        "perf",
+        "GPU",
+        "CUDA",
+      ]
+    },
+
+    {
+      category: (
+        <div className="flex items-center gap-3 font-semibold">
+          <Users size={22} className="text-blue-500" />
+          Soft Skills
+        </div>
+      ),
+
+      items: [
+        "Esprit d’initiative",
+        "Leadership",
+        "Travail en équipe",
+        "Communication",
+        "Esprit d’analyse",
+        "Rigueur & organisation",
+      ]
+    },
+
+  ];
+
   return (
-    <section id="skills" className="min-h-screen flex flex-col justify-center items-center px-6 py-20 transition-all duration-500">
-      <h2 className="text-5xl font-bold mb-14 text-blue-900 dark:text-white">Compétences</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl">
-        {/* Langages */}
-        <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-[#1e293b] rounded-2xl p-8 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300">
-          <h3 className="text-2xl font-semibold mb-5 text-blue-500">Langages</h3>
-          <div className="flex flex-wrap gap-3">
-            {[
-              "Python",
-              "C",
-              "C++",
-              "Java",
-              "JavaScript",
-              "PHP",
-              "SQL",
-              "R",
-            ].map((skill) => (
-              <span
-                key={skill} className="bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm font-medium">
-                {skill}
-              </span>
-            ))}
+    <section
+      data-aos="fade-up"
+      id="skills"
+      className="py-20 px-6"
+    >
+
+      <h2
+        data-aos="fade-up"
+        className="text-4xl font-bold text-center text-blue-900 dark:text-white mb-10"
+      >
+        Compétences
+      </h2>
+
+      {/* Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+        {skills.map((section, index) => (
+
+          <div
+            key={index}
+            className="
+              bg-gradient-to-br
+              from-white
+              to-blue-100
+              dark:bg-[#1e293b]
+
+              border border-blue-100
+              dark:border-gray-700
+
+              shadow-md
+              p-6
+              rounded-2xl
+
+              hover:shadow-xl
+              hover:-translate-y-1
+
+              transition duration-300
+            "
+          >
+
+            {/* Title */}
+            <h3 className="text-lg font-bold text-gray-800 dark:text-white mb-5">
+              {section.category}
+            </h3>
+
+            {/* Skills */}
+            <ul className="space-y-3 text-gray-600 dark:text-gray-300 text-sm">
+
+              {section.items.map((item, i) => (
+                <li
+                  key={i}
+                  className="flex items-center gap-2"
+                >
+                  <span className="text-blue-500">•</span>
+                  {item}
+                </li>
+              ))}
+
+            </ul>
+
           </div>
-        </div>
-        {/* Web */}
-        <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-[#1e293b] rounded-2xl p-8 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300">
-          <h3 className="text-2xl font-semibold mb-5 text-blue-500">Web</h3>
-          <div className="flex flex-wrap gap-3">
-            {[
-              "HTML/CSS",
-              "WordPress",
-              "Angular",
-            ].map((skill) => (
-              <span
-                key={skill}
-                className="bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm font-medium">
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
 
-        {/* Data & IA */}
-        <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-[#1e293b]
-        rounded-2xl p-8 shadow-lg hover:shadow-2xl
-        hover:-translate-y-2 transition duration-300">
-
-          <h3 className="text-2xl font-semibold mb-5 text-blue-500">
-            Data & IA
-          </h3>
-
-          <div className="flex flex-wrap gap-3">
-            {[
-              "Pandas",
-              "NumPy",
-              "SciPy",
-              "Matplotlib",
-              "TensorFlow",
-              "Scikit-learn",
-              "Machine Learning",
-              "Deep Learning",
-              "Analyse Exploratoire",
-              "GAN",
-              "Autoencodeurs",
-            ].map((skill) => (
-              <span
-                key={skill}
-                className="bg-blue-100 text-blue-600 
-                px-4 py-2 rounded-full text-sm font-medium"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* HPC */}
-        <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-[#1e293b]
-        rounded-2xl p-8 shadow-lg hover:shadow-2xl
-        hover:-translate-y-2 transition duration-300">
-
-          <h3 className="text-2xl font-semibold mb-5 text-blue-500">
-            HPC & Simulation
-          </h3>
-
-          <div className="flex flex-wrap gap-3">
-            {[
-              "MPI",
-              "OpenMP",
-              "multiprocessing",
-              "threading",
-              "gprof",
-              "perf",
-              "GPU",
-              "CUDA",
-            ].map((skill) => (
-              <span
-                key={skill}
-                className="bg-blue-100 text-blue-600 
-                px-4 py-2 rounded-full text-sm font-medium"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* Soft Skills */}
-        <div className="md:col-span-2 bg-gradient-to-br from-white to-blue-100 dark:bg-[#1e293b]
-        rounded-2xl p-8 shadow-lg hover:shadow-2xl
-        hover:-translate-y-2 transition duration-300">
-
-          <h3 className="text-2xl font-semibold mb-5 text-blue-500">
-            Soft Skills
-          </h3>
-
-          <div className="flex flex-wrap gap-3">
-            {[
-              "Esprit d’initiative",
-              "Leadership",
-              "Travail en équipe",
-              "Communication",
-              "Esprit d’analyse",
-              "Rigueur & organisation",
-            ].map((skill) => (
-              <span
-                key={skill}
-                className="bg-blue-100 
-                text-blue-600 
-                px-4 py-2 rounded-full text-sm font-medium"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
+        ))}
 
       </div>
+
     </section>
   );
 }
