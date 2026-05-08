@@ -1,7 +1,7 @@
 function Experience() {
   return (
      <section id="experience" className="min-h-screen  text-blue-900 flex flex-col justify-center items-center">
-      <h2 className="text-blue-900 dark:text-white text-4xl font-bold mb-8">Experience</h2>
+      <h2 className="text-blue-900 dark:text-white text-4xl font-bold mb-8">Expériences</h2>
       {/* Expériences */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full px-10">
         {/* Experience 1 */}
