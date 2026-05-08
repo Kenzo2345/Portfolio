@@ -15,7 +15,7 @@ export default function Footer() {
           <a href="https://linkedin.com/in/kenza-taibi" className="hover:text-blue-500 transition">
             <Linkedin size={22} />
           </a>
-          <a href="mailto:taibikenza11@gmail.com" className="hover:text-blue-500 transition">
+          <a href="mailto:taibikenza1102@gmail.com" className="hover:text-blue-500 transition">
             <Mail size={22} />
           </a>
         </div>

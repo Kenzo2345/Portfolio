@@ -17,7 +17,7 @@ export default function Contact() {
           </div>
 
           <a href="https://mail.google.com/mail/?view=cm&fs=1&to=taibi@gmail.com" target="_blank" 
-          className=" break-all hover:underline text-blue-500"> taibikenza11@gmail.com</a>
+          className=" break-all hover:underline text-blue-500"> taibikenza1102@gmail.com</a>
         </div>
         {/* Téléphone */}
         <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 hover:translate-x-1 transition">

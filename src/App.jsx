@@ -15,6 +15,8 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-[#0f172a] text-gray-900 dark:text-white transition-all duration-500">
       <Navbar />
+          {/* Scroll automatique + bouton */}
+      <ScrollToTop />
       <main className="flex-grow">
         <Routes>
           {/* Page d’accueil (avec plusieurs sections) */}
@@ -37,8 +39,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
         </Routes>
       </main>
-      {/*Bouton retour en haut */}
-      <ScrollToTop />
+     
       <Footer />
     </div>
     
