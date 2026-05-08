@@ -11,14 +11,14 @@ export default function Projects() {
           </div>
           {/* Project 2 */}
           <div className="bg-gradient-to-br from-white to-blue-100   dark:bg-[#1e293b] rounded-2xl p-6 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300">
-            <h3 className="text-2xl font-semibold mb-4 text-blue-500">bGAN – Visages Synthétiques</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-blue-500">GAN – Visages Synthétiques</h3>
             <p className="text-gray-600 mb-4"> Conception et entraînement d’un GAN sur CelebA pour générer des visages réalistes avec optimisation de l’entraînement et analyse des résultats. </p>
             <p className="text-sm text-blue-400"> Python • TensorFlow • NumPy</p>
           </div>
           {/* Project 3 */}
           <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-[#1e293b] rounded-2xl p-6 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300">
             <h3 className="text-2xl font-semibold mb-4 text-blue-500"> Simulation 3D OpenGL</h3>
-            <p className="text-gray-600 dark:text-gray-300 mb-4"> Développement d’une scène 3D temps réel avec lumières dynamiques, textures, normal mapping et optimisation des performances.</p>
+            <p className="text-gray-600 mb-4"> Développement d’une scène 3D temps réel avec lumières dynamiques, textures, normal mapping et optimisation des performances.</p>
             <p className="text-sm text-blue-400"> C++ • OpenGL • GLSL</p>
           </div>
           {/* Project 4 */}

@@ -6,7 +6,7 @@ export default function Home() {
       <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-white/80 p-6 rounded-3xl shadow-lg max-w-4xl w-full animate-fadeIn">
         <div className="flex flex-col items-center">
           <Hand size={65} className=" animate-bounce mb-2 text-blue-900" />
-          <h1 className="font-bold ">Bonjour, je suis<span className="text-blue-900"> TAIBI Kenza</span> </h1>
+          <h1 className="font-bold text-black">Bonjour, je suis<span className="text-blue-900"> TAIBI Kenza</span> </h1>
           <p className="mt-2 text-gray-600">AI • HPC • Software Engineering</p>
         </div>
         
