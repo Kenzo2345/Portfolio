@@ -60,7 +60,7 @@ const activeClass =
 
           <li>
             <Link to="/projects" className={location.pathname === "/projects" ? activeClass : normalClass} hover:text-blue-500 transition duration-300>
-              Projects
+              Projets
             </Link>
           </li>
 

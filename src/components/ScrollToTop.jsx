@@ -7,12 +7,15 @@ export default function ScrollToTop() {
   const { pathname } = useLocation();
 
   // Scroll automatique en haut lors du changement de page
-  useEffect(() => {
+useEffect(() => {
+  // Scroll seulement si pas de hash (#about, #contact...)
+  if (!window.location.hash) {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
-  }, [pathname]);
+  }
+}, [pathname]);
 
   // Afficher le bouton après scroll
   useEffect(() => {
