@@ -7,7 +7,7 @@ function Experience() {
         {/* Experience 1 */}
           <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-[#1e293b] rounded-2xl p-6 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300">
             <h3 className="text-2xl font-semibold mb-3 text-blue-500"> Détection de Bugs Numériques via IA</h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4"> Espace Dev UPVD • En cours </p>
+            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4"> Espace Dev UPVD • Avril – Mai 2026</p>
             <p className="text-gray-600 leading-7"> Développement d’un prototype multi-agents basé sur des modèles de LLM afin d’identifier et analyser des bugs numériques. Travail autour de l’IA générative, l’analyse automatisée de code, la détection d’erreurs de calcul et l’optimisation d’outils d’automatisation.</p>
             <div className="mt-5 flex flex-wrap gap-2">
               <span className="bg-blue-100 text-blue-500 px-3 py-1 rounded-full text-xs"> IA Générative</span>

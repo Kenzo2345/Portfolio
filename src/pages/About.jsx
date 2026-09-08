@@ -6,10 +6,10 @@ export default function About() {
       {/* Bloc présentation */}
       <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-white/80 max-w-5xl mx-auto shadow-xl rounded-3xl p-8 md:p-10 text-center leading-relaxed text-gray-700 space-y-6">
         <p className="mt-8  text-gray-700 flex flex-wrap justify-center gap-6">
-          Étudiante en Master 1 Informatique spécialisée en calcul haute performance, intelligence artificielle et simulation numérique. Compétences en Python, C/C++, MPI, TensorFlow, traitement de données, calcul parallèle et modélisation scientifique. 
+          Étudiante en Master 2 Informatique spécialisée en calcul haute performance, intelligence artificielle et simulation numérique. Compétences en Python, C/C++, MPI, TensorFlow, traitement de données, calcul parallèle et modélisation scientifique.
         </p>
         <p className="mt-4 text-gray-700 flex flex-wrap justify-center gap-6">
-          Recherche une alternance à partir de septembre 2026 en IA, Data Science ou HPC.
+          Recherche d'un stage de 6 mois à partir de février 2027 en IA, Data Science ou HPC.
         </p>
       </div>
 
