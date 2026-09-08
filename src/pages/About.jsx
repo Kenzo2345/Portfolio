@@ -48,6 +48,15 @@ export default function About() {
               <p className="text-blue-500 font-medium"> Université de Limoges | 2024 – 2025</p>
               <p className="text-gray-600 mt-2">
                 IA, Vision par ordinateur, Traitement d’images, Statistique des données, Optimisation combinatoire, Bases de données avancées, GPGPU.</p>
+              <a
+                href="/RN%20M1-isicg.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-flex items-center gap-2 text-xs font-medium text-blue-500 hover:text-blue-700 transition"
+              >
+                <FileText size={14} />
+                Relevé de notes (PDF)
+              </a>
             </li>
             {/* Licence */}
             <li>
@@ -55,6 +64,15 @@ export default function About() {
               <p className="text-blue-500 font-medium">  Université de Limoges | 2021 – 2024</p>
               <p className="text-gray-600 mt-2">
                 IA, Développement mobile, Systèmes d’exploitation, Sécurité informatique, Théorie des graphes, Théorie des jeux, Génie logiciel.</p>
+              <a
+                href="/RN%20L3.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-flex items-center gap-2 text-xs font-medium text-blue-500 hover:text-blue-700 transition"
+              >
+                <FileText size={14} />
+                Relevé de notes (PDF)
+              </a>
             </li>
           </ul>
         </div>
