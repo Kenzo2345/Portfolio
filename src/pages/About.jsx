@@ -1,4 +1,4 @@
-import { Award, GraduationCap, Handshake  } from "lucide-react"
+import { Award, GraduationCap, Handshake, FileText  } from "lucide-react"
 export default function About() {
   return (
     <section id="about" className="min-h-screen text-white flex flex-col justify-center items-center px-10 py-20">
@@ -48,6 +48,15 @@ export default function About() {
                 IA, Développement mobile, Systèmes d’exploitation, Sécurité informatique, Théorie des graphes, Théorie des jeux, Génie logiciel.</p>
             </li>
           </ul>
+          <a
+            href="/RN_kenza-1.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-5 inline-flex items-center gap-2 text-xs font-medium text-blue-500 hover:text-blue-700 transition"
+          >
+            <FileText size={14} />
+            Relevé de notes (PDF)
+          </a>
         </div>
        {/* Certifications */}
         <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-[#1e293b] shadow-lg rounded-2xl p-6 hover:shadow-2xl hover:-translate-y-1 transition duration-300">
