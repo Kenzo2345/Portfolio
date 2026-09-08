@@ -28,6 +28,7 @@ export default function About() {
               <h4 className="font-semibold text-gray-900e"> Master Calcul Haute Performance & Simulation</h4>
               <p className="text-blue-500 font-medium">Université Perpignan Via Domitia | 2025 – Aujourd’hui
               </p>
+              <p className="text-gray-700 font-semibold mt-2">Major de promotion (M1)</p>
               <p className="text-gray-600 mt-2">
                 MPI, Architectures et modèles de calcul, Optimisation des performances, Modélisation numérique, Simulation, Programmation C & Python.</p>
             </li>
