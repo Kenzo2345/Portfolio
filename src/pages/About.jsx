@@ -30,7 +30,7 @@ export default function About() {
               </p>
               <p className="text-gray-700 font-semibold mt-2">Major de promotion (M1)</p>
               <p className="text-gray-600 mt-2">
-                MPI, Architectures et modèles de calcul, Optimisation des performances, Modélisation numérique, Simulation, Programmation C & Python.</p>
+                IA, MPI, Architectures et modèles de calcul, Optimisation des performances, Modélisation numérique, Simulation, Programmation C & Python.</p>
               <a
                 href="/RN_kenza-1.pdf"
                 target="_blank"
