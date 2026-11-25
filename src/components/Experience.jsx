@@ -15,20 +15,7 @@ function Experience() {
               <span className="bg-blue-100 text-blue-500 px-3 py-1 rounded-full text-xs"> Analyse de Code </span>
             </div>
           </div>
-          {/* Experience 2 */}
-          <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-[#1e293b] rounded-2xl p-6 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300">
-            <h3 className="text-2xl font-semibold mb-3 text-blue-500"> Quantization et Distillation de Modèle NLP</h3>
-            <p className="text-sm text-gray-500 dark:text-gray-400 mb-4"> BMCE • Juillet – Aout 2025</p>
-            <p className="text-gray-600 leading-7"> Réduction de la taille et latence d'un modèle BERT via quantization et distillation.
-Benchmark comparative de performance : 80% de réduction de taille, 3x speedup, avec
-conservation de l'accuracy. Déploiement et tests sur CPU.
-</p>
-            <div className="mt-5 flex flex-wrap gap-2">
-              <span className="bg-blue-100 text-blue-500 px-3 py-1 rounded-full text-xs"> IA</span>
-              <span className="bg-blue-100 text-blue-500 px-3 py-1 rounded-full text-xs"> Optimisation</span>
-              <span className="bg-blue-100 text-blue-500 px-3 py-1 rounded-full text-xs"> Quantization </span>
-            </div>
-          </div>
+          
         {/* Experience 3 */}
         <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-[#1e293b] rounded-2xl p-6 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300">
           <h3 className="text-2xl font-semibold mb-3 text-blue-500"> Développement Web Fullstack</h3>

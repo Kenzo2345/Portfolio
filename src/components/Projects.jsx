@@ -3,6 +3,17 @@ export default function Projects() {
     <section id="projects" className="min-h-screen  text-blue-900 flex flex-col justify-center items-center">
       <h2 className="text-blue-900 dark:text-white text-4xl font-bold mb-8">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full px-10">
+          {/* Project : Quantization BERT */}
+          <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-[#1e293b] rounded-2xl p-6 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300">
+            <h3 className="text-2xl font-semibold mb-4 text-blue-500">Quantization et Distillation de BERT</h3>
+            <p className="text-gray-600 mb-4">Réduction de la taille et de la latence d'un modèle BERT par quantification et distillation. Benchmark comparatif : réduction de taille de 80 %, accélération ×3, précision conservée. Déploiement et tests sur CPU.</p>
+            <p className="flex flex-wrap gap-2">
+              <span className="bg-blue-100 text-blue-400 text-sm px-3 py-1 rounded-full font-medium">Python</span>
+              <span className="bg-blue-100 text-blue-400 text-sm px-3 py-1 rounded-full font-medium">BERT</span>
+              <span className="bg-blue-100 text-blue-400 text-sm px-3 py-1 rounded-full font-medium">Quantization</span>
+          </p>
+          <p className="mt-3 text-sm font-semibold text-blue-500">Résultat : <span className="text-green-500 font-bold">Modèle 80 % plus petit, trois fois plus rapide, précision conservée</span></p>
+          </div>
           {/* Project 1 */}
           <div className="bg-gradient-to-br from-white to-blue-100 dark:bg-[#1e293b] rounded-2xl p-6 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition duration-300">
             <h3 className="text-2xl font-semibold mb-4 text-blue-500">Blockchain Rétractable</h3>
